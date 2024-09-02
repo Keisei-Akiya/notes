@@ -7,16 +7,17 @@ tags: [markdown, wsl2, vagrant]
 # Vagrant
 
 ## やったこと
-- VagrantをWindowsにインストール
-- VagrantをWSL2にインストール
+
+- Vagrant を Windows にインストール
+- Vagrant を WSL2 にインストール
 - `~/.bashrc`に以下を追加
 
-    ```
-    export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
-    export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"
-    ```
+  ```bash
+  export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+  export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"
+  ```
 
-- WSL2で以下のコマンドを実行．
+- WSL2 で以下のコマンドを実行．
 
 `vagrant plugin install virtualbox_WSL2`
 
